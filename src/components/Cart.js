@@ -57,6 +57,7 @@ class Cart extends React.Component {
 
                             if (countBanana > 0 || countApple > 0 || countPapaya > 0)
                                 alert("Bought!")
+                                window.location.reload();
                         }} />
                     </div>
                 </div>
